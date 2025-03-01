@@ -54,7 +54,7 @@ from browser_use.utils import time_execution_async, time_execution_sync
 
 load_dotenv()
 logger = logging.getLogger(__name__)
-
+# 管理与任务执行相关的各种操作，包括与语言模型交互、执行浏览器操作、处理任务历史记录
 
 def log_response(response: AgentOutput) -> None:
 	"""Utility function to log the model's response."""
