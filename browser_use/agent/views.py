@@ -23,7 +23,7 @@ from browser_use.dom.views import SelectorMap
 
 ToolCallingMethod = Literal['function_calling', 'json_mode', 'raw', 'auto']
 
-
+# 定义了多个用于管理和处理代理（Agent）相关信息的类，涵盖了代理的设置、状态、操作结果、历史记录等多个方面
 class AgentSettings(BaseModel):
 	"""Options for the agent"""
 
