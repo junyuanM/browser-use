@@ -40,7 +40,7 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
-
+# 用于管理浏览器上下文，包括页面导航、元素操作、状态获取等功能，并进行了详细的错误处理和配置管理
 class BrowserContextWindowSize(TypedDict):
 	width: int
 	height: int
