@@ -18,7 +18,7 @@ from browser_use.browser.context import BrowserContext, BrowserContextConfig
 from browser_use.utils import time_execution_async
 
 logger = logging.getLogger(__name__)
-
+# 为 Playwright 浏览器功能添加了更多特性和配置选项，使其更易于使用和管理
 
 @dataclass
 class BrowserConfig:
